@@ -19,19 +19,19 @@ def send_slack_message(payload, webhook):
 image_url = "http://" + get_ip_address()  + "/media/" + str(filename)
 
 webhook = "https://hooks.slack.com/services/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"
-payload = {"text": image_url, "channel": "#krmitko", "username": "Ptáček", "icon_emoji": ":bird:",
+payload = {"text": image_url, "channel": "#krmitko", "username": "Ptace", "icon_emoji": ":bird:",
 "blocks": [
     	{
     		"type": "section",
     		"block_id": "section567",
     		"text": {
     			"type": "mrkdwn",
-    			"text": "<" + image_url + "|Někdo je v krmítku!>"
+    			"text": "<" + image_url + "|Nekdo je v krmitku!>"
     		},
     		"accessory": {
     			"type": "image",
     			"image_url": image_url,
-    			"alt_text": "Ptáček!"
+    			"alt_text": "Ptacek!"
     		}
     	}
     ]

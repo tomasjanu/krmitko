@@ -1,4 +1,14 @@
 # Kvmitko
 
 ## Rpi Cam instalation
-- in /etc/nginx/sites-available/ update the rpicam config (folder)
+- update the rpicam folder config:
+```bash
+sudo nano /etc/nginx/sites-available/rpicam
+```
+
+
+## Checker setup
+```bash
+sudo apt install inotify-tools
+```
+
